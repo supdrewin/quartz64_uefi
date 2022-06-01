@@ -57,3 +57,12 @@ jobs:
           asset_path: ./ROC-RK3566-PC_EFI.img.gz
           asset_name: ROC-RK3566-PC_EFI.img.gz
           asset_content_type: application/gzip
+      - name: upload ROCK3A_EFI artifact
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./ROCK3A_EFI.img.gz
+          asset_name: ROCK3A_EFI.img.gz
+          asset_content_type: application/gzip

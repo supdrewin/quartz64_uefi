@@ -91,6 +91,9 @@ build_uefi Firefly ROC-RK3566-PC
 build_fit ROC-RK3566-PC rk3566-firefly-roc-pc
 build_uefi Firefly ROC-RK3568-PC
 build_fit ROC-RK3568-PC rk3568-firefly-roc-pc
+# Rock3A boards
+build_uefi Radxa Rock3A
+build_fit Rock3A rk3568-radxa-rock-3a.dtb
 
 build_idblock
 
