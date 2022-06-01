@@ -7,7 +7,7 @@
 #
 # Board specific initialization
 #
-INF Platform/Radxa/CM3/Drivers/BoardInitDxe/BoardInitDxe.inf
+INF Platform/Radxa/Rock3A/Drivers/BoardInitDxe/BoardInitDxe.inf
 
 #
 # Devicetree support
